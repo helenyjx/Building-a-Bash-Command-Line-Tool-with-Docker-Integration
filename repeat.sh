@@ -1,9 +1,12 @@
 #!/bin/bash
 # Using the read command to read the line-break (\n) separated records of dataset.
-while read line
-do
-   echo "Record is : $line"
-done < Walmart.csv
+sort_record() {
+    while read line
+    do
+      echo "Record is : $line"
+    done < $1
+}
+sort_record Walmart.csv
 
 #!/bin/bash
 # Updating the record after excluding the header line from the output.
@@ -26,20 +29,3 @@ do
   echo "Unemployment: $rec_column8"
   echo ""
 done < <(tail -n +2 Walmart.csv)
-
-#! /bin/bash
-# Mapping Columns of CSV File into Bash Arrays
-arr_record1=( $(tail -n +2 Walmart.csv | cut -d ',' -f1) )
-arr_record2=( $(tail -n +2 Walmart.csv | cut -d ',' -f2) )
-arr_record3=( $(tail -n +2 Walmart.csv | cut -d ',' -f3) )
-arr_record4=( $(tail -n +2 Walmart.csv | cut -d ',' -f4) )
-arr_record5=( $(tail -n +2 Walmart.csv | cut -d ',' -f5) )
-arr_record6=( $(tail -n +2 Walmart.csv | cut -d ',' -f6) )
-arr_record7=( $(tail -n +2 Walmart.csv | cut -d ',' -f7) )
-echo "array of Store : ${arr_record1[@]}"
-echo "array of Date : ${arr_record2[@]}"
-echo "array of Weekly Sales: ${arr_record3[@]}"
-echo "array of Holiday(1) or Non-holiday (0) : ${arr_record4[@]}"
-echo "array of Temperature : ${arr_record5[@]}"
-echo "array of CPI : ${arr_record6[@]}"
-echo "array of Unemployment : ${arr_record7[@]}"
