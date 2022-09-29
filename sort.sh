@@ -1,4 +1,3 @@
-$ cat Walmart.csv
 #!/bin/bash
 while read line
 do
