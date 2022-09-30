@@ -7,6 +7,7 @@ In project2, I use the same dataset Walmart.csv from project 1. The main goal is
 ### Steps of Building Docker in Codespace
 #### 1. Build: 
 Type: `docker build .`
+
 <img width="892" alt="dockerbuild" src="https://user-images.githubusercontent.com/112274822/193355483-fbab1c71-21d6-4a8e-9624-dc614eb3890c.png">
 
 #### 2. List: 
