@@ -11,6 +11,7 @@ Type: `docker build .`
 
 #### 2. List: 
 Type: `docker image ls`
+
 <img width="526" alt="dockerimage" src="https://user-images.githubusercontent.com/112274822/193355543-6a2747b1-61a2-4ff5-a7e3-1ed827628d83.png">
 
 #### 3. Run with my image id: 
