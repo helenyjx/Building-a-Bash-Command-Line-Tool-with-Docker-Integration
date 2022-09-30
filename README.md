@@ -17,7 +17,7 @@ In project2, I use the same dataset Walmart.csv from project 1. The main goal is
 * Verify I can run it by pulling from Docker Hub: https://hub.docker.com/repository/docker/helenyjx/project2
 
 ### Run in Cloud9
-#### Run locally
+#### Run locally:
 * eg1: `docker run -it helenyjx/project2:latest /bin/bash read.sh Walmart.csv`
 * eg2: `docker run -it helenyjx/project2:latest /bin/bash sort.sh Walmart.csv`
 * eg3: `docker run -it helenyjx/project2:latest /bin/bash clean.sh Walmart.csv`

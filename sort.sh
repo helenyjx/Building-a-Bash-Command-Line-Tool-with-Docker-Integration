@@ -1,5 +1,5 @@
 #! /bin/bash
-# Updating the record after excluding the header line from the output.
+# Sorting the record after excluding the header line from the output.
 sort_record_no_header() {
     while read line
     do
