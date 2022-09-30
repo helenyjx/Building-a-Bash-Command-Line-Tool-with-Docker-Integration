@@ -1,1 +1,1 @@
-# bash-p2-yjx
+# Project 2 (Jiaxin Ying)
