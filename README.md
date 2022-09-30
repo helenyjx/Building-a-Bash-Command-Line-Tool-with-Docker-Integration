@@ -17,16 +17,16 @@ In project2, I use the same dataset Walmart.csv from project 1. The main goal is
 * Verify I can run it by pulling from Docker Hub: https://hub.docker.com/repository/docker/helenyjx/project2
 
 ### Run in Cloud9
-* Run locally: 
-          eg1: `docker run -it helenyjx/project2:latest /bin/bash read.sh Walmart.csv`
-          eg2: `docker run -it helenyjx/project2:latest /bin/bash sort.sh Walmart.csv`
-          eg3: `docker run -it helenyjx/project2:latest /bin/bash clean.sh Walmart.csv`
-* AWS Cloud9 login: 
-`aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 894437926398.dkr.ecr.us-east-2.amazonaws.com`
-* Retag and push:
-`docker tag helenyjx/project2 894437926398.dkr.ecr.us-east-2.amazonaws.com/project2-yjx:latest`
-`docker push 894437926398.dkr.ecr.us-east-2.amazonaws.com/project2-yjx:latest`
-* Verify it runs in a new cloud9 instance: 
-Read each record: `docker run -it 894437926398.dkr.ecr.us-east-2.amazonaws.com/project2-yjx:latest /bin/bash read.sh Walmart.csv`
-Sort each record via excluding the header row: `docker run -it 894437926398.dkr.ecr.us-east-2.amazonaws.com/project2-yjx:latest /bin/bash sort.sh Walmart.csv`
-Clean each record in organized format: `docker run -it 894437926398.dkr.ecr.us-east-2.amazonaws.com/project2-yjx:latest /bin/bash clean.sh Walmart.csv`
+#### Run locally
+* eg1: `docker run -it helenyjx/project2:latest /bin/bash read.sh Walmart.csv`
+* eg2: `docker run -it helenyjx/project2:latest /bin/bash sort.sh Walmart.csv`
+* eg3: `docker run -it helenyjx/project2:latest /bin/bash clean.sh Walmart.csv`
+#### AWS Cloud9 login: 
+* `aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 894437926398.dkr.ecr.us-east-2.amazonaws.com`
+#### Retag and push:
+* `docker tag helenyjx/project2 894437926398.dkr.ecr.us-east-2.amazonaws.com/project2-yjx:latest`
+* `docker push 894437926398.dkr.ecr.us-east-2.amazonaws.com/project2-yjx:latest`
+#### Verify it runs in a new cloud9 instance: 
+* Read each record: `docker run -it 894437926398.dkr.ecr.us-east-2.amazonaws.com/project2-yjx:latest /bin/bash read.sh Walmart.csv`
+* Sort each record via excluding the header row: `docker run -it 894437926398.dkr.ecr.us-east-2.amazonaws.com/project2-yjx:latest /bin/bash sort.sh Walmart.csv`
+* Clean each record in organized format: `docker run -it 894437926398.dkr.ecr.us-east-2.amazonaws.com/project2-yjx:latest /bin/bash clean.sh Walmart.csv`
