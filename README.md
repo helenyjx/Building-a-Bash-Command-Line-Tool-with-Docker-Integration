@@ -13,21 +13,33 @@ The main goal is to build a Bash command-line tool that performs a useful data p
 #### 1. Build virtual environment
 A virtual environment is a tool that helps to keep dependencies required by different projects separate by creating isolated python virtual environments for them. However, in this project we only use bash command-line tool without python language, so this step is optional.
 * Hold keyboards: Shift+Command+P, search: "devcon", and then click the first option. 
+<img width="689" alt="denv" src="https://user-images.githubusercontent.com/112274822/193478067-55a9fb6b-3e3b-4ed8-b988-03c8b134f77f.png">
+
 * Find "Python 3", and then also click the first option.
+<img width="532" alt="Screen Shot 2022-10-02 at 6 03 26 PM" src="https://user-images.githubusercontent.com/112274822/193478297-57596596-0c2e-4452-847d-d25a6c6c8ec3.png">
+<img width="519" alt="Screen Shot 2022-10-02 at 6 03 11 PM" src="https://user-images.githubusercontent.com/112274822/193478306-388feeca-5fc9-4ee9-a45f-5c29321cf13d.png">
+
 * Once finish above steps, you will see the new file called "devcontainer.json". Also, you can check wether (.venv) shows in the Terminal.
+<img width="1047" alt="Screen Shot 2022-10-02 at 5 29 42 PM" src="https://user-images.githubusercontent.com/112274822/193478113-ba76caac-60fa-41b4-bf6e-2a4ea2409662.png">
 
 #### 2. Create a new workflow at Github
 A workflow is a configurable automated process that will run one or more jobs. Workflows are defined by a YAML file checked in to your repository and will run when triggered by an event in your repository, or they can be triggered manually, or at a defined schedule.
 * Go to the homepage of the repository, cilck the button "Actions", choose "set up a workflow yourself".
-* Name it as "main.yml", type the code you need, then click the green button "start commit".
-* Once complete these steps, you can check the status of your workflows from "Actions" page, so that make sure your program could pass the tests. Otherwise, you need to fix the code where the bugs/errors arw reported.
+<img width="1167" alt="Screen Shot 2022-10-02 at 5 36 06 PM" src="https://user-images.githubusercontent.com/112274822/193478123-cc0ccb4d-bd4f-4928-b62b-d90bef69ca31.png">
 
-### 3. Create a Makefile
+* Name it as "main.yml", type the code you need, then click the green button "start commit".
+<img width="1440" alt="Screen Shot 2022-10-02 at 5 59 32 PM" src="https://user-images.githubusercontent.com/112274822/193478170-e31c0690-0209-4d87-bdba-6a5806d142cb.png">
+
+* Once complete these steps, you can check the status of your workflows from "Actions" page, so that make sure your program could pass the tests. Otherwise, you need to fix the code where the bugs/errors arw reported.
+<img width="1333" alt="Screen Shot 2022-10-02 at 5 30 33 PM" src="https://user-images.githubusercontent.com/112274822/193478177-cb07a2bc-ff65-4172-8174-15cc74c75af3.png">
+
+#### 3. Create a Makefile
 A makefile is a special file that lists a set of rules for compiling a project. These rules include targets, which can be an action make needs to take (eg. "clean" or "build") or the files/objects make will need to build, and the commands that need to be run in order to build that target. 
 * Type: `touch Makefile`
 * Once Makefile is built, add the code you need. When you call the program make, it runs through each of these targets in your Makefile and executes them.
+<img width="402" alt="Screen Shot 2022-10-02 at 5 46 10 PM" src="https://user-images.githubusercontent.com/112274822/193478190-7caefd3b-3b60-4bbd-afcc-5e93622bacc4.png">
 
-### 4. Add requirements.txt
+#### 4. Add requirements.txt
 Requirement. txt file is a type of file that usually stores information about all the libraries, modules, and packages in itself that are used while developing a particular project. It also stores all files and packages on which that project is dependent or requires to run. 
 * Because this file is automatically by the system, we can add any files and packages directly for the project.
 
