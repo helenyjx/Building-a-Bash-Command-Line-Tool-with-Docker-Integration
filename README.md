@@ -2,12 +2,34 @@
 This is project 2 from Jiaxin Ying for IDS706 class.
 
 ## Key Objectives of Project
-In project 2, I use the same dataset Walmart.csv from project 1.  I chose this dataset from Kaggle called Walmart (https://www.kaggle.com/datasets/yasserh/walmart-dataset), which is about 45 Walmart stores’ historical data that covers sales from 2010-02-05 to 2012-11-01. There are seven main variables: Date, Weekly_Sales, Fuel_Price, CPI, Temperature, Holiday_Flag and Unemployment rate.
+In project 2, I use the same dataset Walmart.csv from project 1. This dataset comes from Kaggle called Walmart (https://www.kaggle.com/datasets/yasserh/walmart-dataset), which is about 45 Walmart stores’ historical data that covers sales from 2010-02-05 to 2012-11-01. There are seven main variables: Date, Weekly_Sales, Fuel_Price, CPI, Temperature, Holiday_Flag and Unemployment rate.
 The main goal is to build a Bash command-line tool that performs a useful data preparation task such as truncating data, sorting it, and cleaning data for Walmart.csv. It will help sales managers review the data and understand the factors that affect weekly sales, so they can work more efficiently.
 
 ## Structure Diagram
 
 ## Demo Video Link
+
+## Advance Preparation
+#### 1. Build virtual environment
+A virtual environment is a tool that helps to keep dependencies required by different projects separate by creating isolated python virtual environments for them. However, in this project we only use bash command-line tool without python language, so this step is optional.
+* Hold keyboards: Shift+Command+P, search: "devcon", and then click the first option. 
+* Find "Python 3", and then also click the first option.
+* Once finish above steps, you will see the new file called "devcontainer.json". Also, you can check wether (.venv) shows in the Terminal.
+
+#### 2. Create a new workflow at Github
+A workflow is a configurable automated process that will run one or more jobs. Workflows are defined by a YAML file checked in to your repository and will run when triggered by an event in your repository, or they can be triggered manually, or at a defined schedule.
+* Go to the homepage of the repository, cilck the button "Actions", choose "set up a workflow yourself".
+* Name it as "main.yml", type the code you need, then click the green button "start commit".
+* Once complete these steps, you can check the status of your workflows from "Actions" page, so that make sure your program could pass the tests. Otherwise, you need to fix the code where the bugs/errors arw reported.
+
+### 3. Create a Makefile
+A makefile is a special file that lists a set of rules for compiling a project. These rules include targets, which can be an action make needs to take (eg. "clean" or "build") or the files/objects make will need to build, and the commands that need to be run in order to build that target. 
+* Type: `touch Makefile`
+* Once Makefile is built, add the code you need. When you call the program make, it runs through each of these targets in your Makefile and executes them.
+
+### 4. Add requirements.txt
+Requirement. txt file is a type of file that usually stores information about all the libraries, modules, and packages in itself that are used while developing a particular project. It also stores all files and packages on which that project is dependent or requires to run. 
+* Because this file is automatically by the system, we can add any files and packages directly for the project.
 
 ### Steps of Building Docker in Codespace
 #### 1. Build: 
