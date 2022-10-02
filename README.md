@@ -16,7 +16,8 @@ A virtual environment is a tool that helps to keep dependencies required by diff
 <img width="689" alt="denv" src="https://user-images.githubusercontent.com/112274822/193478067-55a9fb6b-3e3b-4ed8-b988-03c8b134f77f.png">
 
 * Find "Python 3", and then also click the first option.
-<img width="1512" alt="Screen Shot 2022-10-02 at 3 58 04 PM" src="https://user-images.githubusercontent.com/112274822/193478084-826f5dba-1f64-4c65-8ccf-e5bfb6417314.png">
+<img width="532" alt="Screen Shot 2022-10-02 at 6 03 26 PM" src="https://user-images.githubusercontent.com/112274822/193478297-57596596-0c2e-4452-847d-d25a6c6c8ec3.png">
+<img width="519" alt="Screen Shot 2022-10-02 at 6 03 11 PM" src="https://user-images.githubusercontent.com/112274822/193478306-388feeca-5fc9-4ee9-a45f-5c29321cf13d.png">
 
 * Once finish above steps, you will see the new file called "devcontainer.json". Also, you can check wether (.venv) shows in the Terminal.
 <img width="1047" alt="Screen Shot 2022-10-02 at 5 29 42 PM" src="https://user-images.githubusercontent.com/112274822/193478113-ba76caac-60fa-41b4-bf6e-2a4ea2409662.png">
