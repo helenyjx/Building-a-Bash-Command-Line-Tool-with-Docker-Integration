@@ -1,0 +1,7 @@
+black
+pylint
+click
+pytest
+fastapi
+requests
+openai
