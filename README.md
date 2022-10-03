@@ -44,7 +44,7 @@ A makefile is a special file that lists a set of rules for compiling a project. 
 Requirement. txt file is a type of file that usually stores information about all the libraries, modules, and packages in itself that are used while developing a particular project. It also stores all files and packages on which that project is dependent or requires to run. 
 * Because this file is automatically by the system, we can add any files and packages directly for the project.
 
-### Steps of Building Docker in Codespace
+## Steps of Building Docker in Codespace
 #### 1. Build: 
 Type: `docker build .`
 
@@ -66,7 +66,7 @@ Type: `docker image ls`
 <img width="801" alt="clean" src="https://user-images.githubusercontent.com/112274822/193357015-6c238813-22a2-4b79-857e-b1b1a66829a7.png">
 <img width="617" alt="clean2" src="https://user-images.githubusercontent.com/112274822/193357158-81415cda-db4b-43c0-ba0c-52503e2f9728.png">
 
-### Push code to DockerHub
+## Push code to DockerHub
 * Create docker account at first, then create an access token from account setting. 
 <img width="1290" alt="token" src="https://user-images.githubusercontent.com/112274822/193355854-303e5c6f-3154-40dc-9526-8e923e5bdd15.png">
 
@@ -84,7 +84,7 @@ Type: `docker image ls`
 
 * Verify I can run it by pulling from Docker Hub: https://hub.docker.com/repository/docker/helenyjx/project2
 
-### Run in Cloud9
+## Run in Cloud9
 #### 1. Create a new AWS account
 * Sign in: 
 <img width="975" alt="Screen Shot 2022-10-02 at 11 08 16 PM" src="https://user-images.githubusercontent.com/112274822/193495073-a15a87fd-8653-4619-b9f8-e7bf55a10073.png">
