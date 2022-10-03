@@ -14,14 +14,20 @@ The main goal is to build a Bash command-line tool that performs a useful data p
 ### 1. Build virtual environment
 A virtual environment is a tool that helps to keep dependencies required by different projects separate by creating isolated python virtual environments for them. However, in this project we only use bash command-line tool without python language, so this step is optional.
 * Hold keyboards: Shift+Command+P, search: "devcon", and then click the first option. 
-<img width="689" alt="denv" src="https://user-images.githubusercontent.com/112274822/193478067-55a9fb6b-3e3b-4ed8-b988-03c8b134f77f.png">
+<img width="866" alt="Screen Shot 2022-10-03 at 4 42 52 PM" src="https://user-images.githubusercontent.com/112274822/193678927-7c00f446-12c5-472b-a5e3-8447c7dfc368.png">
 
 * Click "show all definitions", and then search "Github codespace", choose the default one.
 <img width="485" alt="Screen Shot 2022-10-03 at 4 02 26 PM" src="https://user-images.githubusercontent.com/112274822/193668793-8dd8c428-ec22-4415-9346-3a75f7ee88e5.png">
 <img width="494" alt="Screen Shot 2022-10-03 at 4 02 42 PM" src="https://user-images.githubusercontent.com/112274822/193668839-a62f0304-1de2-4980-a199-7e55c2506ba7.png">
 
-* Once finish above steps, you will see the new file called "devcontainer.json". Also, you can check wether (.venv) shows in the Terminal.
-<img width="1047" alt="Screen Shot 2022-10-02 at 5 29 42 PM" src="https://user-images.githubusercontent.com/112274822/193478113-ba76caac-60fa-41b4-bf6e-2a4ea2409662.png">
+* Once finish above steps, you will see the new file called "devcontainer.json". Then, search an extension "github copilot labs", install it and add it to devcontainer.json.
+<img width="544" alt="Screen Shot 2022-10-03 at 4 13 56 PM" src="https://user-images.githubusercontent.com/112274822/193679325-16fabf14-895e-45ba-ad39-402d4ce850be.png">
+<img width="1311" alt="Screen Shot 2022-10-03 at 4 23 24 PM" src="https://user-images.githubusercontent.com/112274822/193679451-7bf1c1db-7b75-43a6-b306-7fe1156be84b.png">
+
+* Go to setting page, find the Codespaces below General, click "set up rebuild". Choose "main" as the branch to rebuild. You can check your prebuild configuration from the homepage once finish it.
+<img width="980" alt="Screen Shot 2022-10-03 at 4 49 49 PM" src="https://user-images.githubusercontent.com/112274822/193680081-d72b7fb3-7298-4ae2-b117-3368d00bfd63.png">
+<img width="1125" alt="Screen Shot 2022-10-03 at 4 20 25 PM" src="https://user-images.githubusercontent.com/112274822/193680374-69923304-46cd-472e-9bc9-99006083d526.png">
+<img width="1120" alt="Screen Shot 2022-10-03 at 4 21 28 PM" src="https://user-images.githubusercontent.com/112274822/193680728-91992c0f-a1bf-425f-a038-3a2e08f16d40.png">
 
 ### 2. Create a new workflow at Github
 A workflow is a configurable automated process that will run one or more jobs. Workflows are defined by a YAML file checked in to your repository and will run when triggered by an event in your repository, or they can be triggered manually, or at a defined schedule.
