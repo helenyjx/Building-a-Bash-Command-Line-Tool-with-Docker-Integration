@@ -88,9 +88,15 @@ Type: `docker image ls`
 #### 1. Create a new AWS account
 * Sign in: 
 <img width="975" alt="Screen Shot 2022-10-02 at 11 08 16 PM" src="https://user-images.githubusercontent.com/112274822/193495073-a15a87fd-8653-4619-b9f8-e7bf55a10073.png">
+
 * Find Cloud9:
+
 It is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. It combines the rich code editing features of an IDE such as code completion, hinting, and step-through debugging, with access to a full Linux server for running and storing code.
 <img width="889" alt="Screen Shot 2022-10-02 at 11 09 08 PM" src="https://user-images.githubusercontent.com/112274822/193495200-61384bfd-11b9-40c1-9053-927b1580e940.png">
+
+* Create environment:
+<img width="1424" alt="Screen Shot 2022-10-02 at 11 20 38 PM" src="https://user-images.githubusercontent.com/112274822/193495856-5f851e97-10c2-48f2-b505-ea24bd756992.png">
+<img width="916" alt="Screen Shot 2022-10-02 at 11 19 55 PM" src="https://user-images.githubusercontent.com/112274822/193495936-40e8178e-5ca2-4528-ac25-4c85a8798320.png">
 
 #### 2. Run code locally:
 * eg1: `docker run -it helenyjx/project2:latest /bin/bash read.sh Walmart.csv`
