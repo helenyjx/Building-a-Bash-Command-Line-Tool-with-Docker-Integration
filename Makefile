@@ -1,5 +1,2 @@
-install:
-	pip install --upgrade pip &&\
-		pip install -r requirements.txt
-
-all: install 
+container-lint:
+	docker run --rm -i hadolint/hadolint < Dockerfile

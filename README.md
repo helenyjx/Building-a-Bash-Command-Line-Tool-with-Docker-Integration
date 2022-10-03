@@ -38,7 +38,7 @@ A workflow is a configurable automated process that will run one or more jobs. W
 A makefile is a special file that lists a set of rules for compiling a project. These rules include targets, which can be an action make needs to take (eg. "clean" or "build") or the files/objects make will need to build, and the commands that need to be run in order to build that target. 
 * Type: `touch Makefile`
 * Once Makefile is built, add the code you need. When you call the program make, it runs through each of these targets in your Makefile and executes them.
-<img width="402" alt="Screen Shot 2022-10-02 at 5 46 10 PM" src="https://user-images.githubusercontent.com/112274822/193478190-7caefd3b-3b60-4bbd-afcc-5e93622bacc4.png">
+
 
 ### 4. Add requirements.txt
 Requirement. txt file is a type of file that usually stores information about all the libraries, modules, and packages in itself that are used while developing a particular project. It also stores all files and packages on which that project is dependent or requires to run. 
