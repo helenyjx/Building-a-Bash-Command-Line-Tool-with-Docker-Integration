@@ -16,9 +16,9 @@ A virtual environment is a tool that helps to keep dependencies required by diff
 * Hold keyboards: Shift+Command+P, search: "devcon", and then click the first option. 
 <img width="689" alt="denv" src="https://user-images.githubusercontent.com/112274822/193478067-55a9fb6b-3e3b-4ed8-b988-03c8b134f77f.png">
 
-* Find "Python 3", and then also click the first option.
-<img width="532" alt="Screen Shot 2022-10-02 at 6 03 26 PM" src="https://user-images.githubusercontent.com/112274822/193478297-57596596-0c2e-4452-847d-d25a6c6c8ec3.png">
-<img width="519" alt="Screen Shot 2022-10-02 at 6 03 11 PM" src="https://user-images.githubusercontent.com/112274822/193478306-388feeca-5fc9-4ee9-a45f-5c29321cf13d.png">
+* Click "show all definitions", and then search "Github codespace", choose the default one.
+<img width="485" alt="Screen Shot 2022-10-03 at 4 02 26 PM" src="https://user-images.githubusercontent.com/112274822/193668793-8dd8c428-ec22-4415-9346-3a75f7ee88e5.png">
+<img width="494" alt="Screen Shot 2022-10-03 at 4 02 42 PM" src="https://user-images.githubusercontent.com/112274822/193668839-a62f0304-1de2-4980-a199-7e55c2506ba7.png">
 
 * Once finish above steps, you will see the new file called "devcontainer.json". Also, you can check wether (.venv) shows in the Terminal.
 <img width="1047" alt="Screen Shot 2022-10-02 at 5 29 42 PM" src="https://user-images.githubusercontent.com/112274822/193478113-ba76caac-60fa-41b4-bf6e-2a4ea2409662.png">
@@ -38,7 +38,7 @@ A workflow is a configurable automated process that will run one or more jobs. W
 A makefile is a special file that lists a set of rules for compiling a project. These rules include targets, which can be an action make needs to take (eg. "clean" or "build") or the files/objects make will need to build, and the commands that need to be run in order to build that target. 
 * Type: `touch Makefile`
 * Once Makefile is built, add the code you need. When you call the program make, it runs through each of these targets in your Makefile and executes them.
-
+<img width="494" alt="Screen Shot 2022-10-03 at 1 47 28 PM" src="https://user-images.githubusercontent.com/112274822/193668976-10a0f99a-22d8-4766-bcc9-41a848bf467c.png">
 
 ### 4. Add requirements.txt
 Requirement. txt file is a type of file that usually stores information about all the libraries, modules, and packages in itself that are used while developing a particular project. It also stores all files and packages on which that project is dependent or requires to run. 
