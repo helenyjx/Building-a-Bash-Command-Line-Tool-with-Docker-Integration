@@ -121,7 +121,7 @@ It is a cloud-based integrated development environment (IDE) that lets you write
 
 #### 6. Verify my project could run in a new cloud9 instance: 
 * Read each record: `docker run -it 894437926398.dkr.ecr.us-east-2.amazonaws.com/project2-yjx:latest /bin/bash read.sh Walmart.csv`
-<img width="502" alt="read veryfiy" src="https://user-images.githubusercontent.com/112274822/193357467-783fe79d-6ca7-4de8-b9e1-8c290e39454a.png">
+<img width="682" alt="Screen Shot 2022-10-02 at 11 40 25 PM" src="https://user-images.githubusercontent.com/112274822/193497771-52b3bf33-4254-477a-90e3-b3ede58fa0ac.png">
 
 * Sort each record via excluding the header row: `docker run -it 894437926398.dkr.ecr.us-east-2.amazonaws.com/project2-yjx:latest /bin/bash sort.sh Walmart.csv`
 <img width="992" alt="clean veryfiy" src="https://user-images.githubusercontent.com/112274822/193357603-bb044ace-ce12-4390-922a-5b13f8c7601e.png">
