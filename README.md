@@ -1,5 +1,5 @@
 # Project2-Jiaxin-Ying
-This is project 2 from Jiaxin Ying for IDS706 class.
+This is project 2 from Jiaxin Ying for IDS706 course.
 
 ## Key Objectives of Project
 In project 2, I use the same dataset Walmart.csv from project 1. This dataset comes from Kaggle called Walmart (https://www.kaggle.com/datasets/yasserh/walmart-dataset), which is about 45 Walmart stores’ historical data that covers sales from 2010-02-05 to 2012-11-01. There are seven main variables: Date, Weekly_Sales, Fuel_Price, CPI, Temperature, Holiday_Flag and Unemployment rate.
