@@ -3,7 +3,7 @@ This is project 2 from Jiaxin Ying for IDS706 class.
 
 ## Key Objectives of Project
 In project 2, I use the same dataset Walmart.csv from project 1. This dataset comes from Kaggle called Walmart (https://www.kaggle.com/datasets/yasserh/walmart-dataset), which is about 45 Walmart stores’ historical data that covers sales from 2010-02-05 to 2012-11-01. There are seven main variables: Date, Weekly_Sales, Fuel_Price, CPI, Temperature, Holiday_Flag and Unemployment rate.
-The main goal is to build a Bash command-line tool that performs a useful data preparation task such as truncating data, sorting it, and cleaning data for Walmart.csv. It will help sales managers review the data and understand the factors that affect weekly sales, so they can work more efficiently.
+The main goal is to build a Bash command-line tool that performs a useful data preparation task such as truncating data, sorting it, and cleaning data for Walmart.csv. It will help sales managers review the data from an organized format and check the factors that potentially affect weekly sales, so they can work more efficiently.
 
 ## Structure Diagram
 <img width="882" alt="Screen Shot 2022-10-02 at 7 13 19 PM" src="https://user-images.githubusercontent.com/112274822/193480531-b5a5799b-333a-4c7f-94b4-7a15c1cb047b.png">
