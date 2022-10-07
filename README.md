@@ -9,6 +9,7 @@ The main goal is to build a Bash command-line tool that performs a useful data p
 <img width="882" alt="Screen Shot 2022-10-02 at 7 13 19 PM" src="https://user-images.githubusercontent.com/112274822/193480531-b5a5799b-333a-4c7f-94b4-7a15c1cb047b.png">
 
 ## Demo Video Link
+https://teams.microsoft.com/l/message/19:e8939993b657494fb65a535b14104595@thread.tacv2/1665177723007?tenantId=cb72c54e-4a31-4d9e-b14a-1ea36dfac94c&groupId=428262e3-7a97-45de-8ed6-eb751b9cb87c&parentMessageId=1665177723007&teamName=IDS.706.01.F22&channelName=Week%206%20Demo_Project%202&createdTime=1665177723007&allowXTenantAccess=false
 
 ## Advance Preparation
 ### 1. Build virtual environment
